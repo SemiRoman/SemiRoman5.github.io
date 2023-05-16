@@ -1,0 +1,113 @@
+/* Reset some default styles */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Center align text and give some padding */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #bfc3ba;
+  color: #333;
+}
+
+h1,
+h2,
+h3,
+p {
+  text-align: center;
+}
+
+/* Style the header */
+header {
+  margin-bottom: 20px;
+}
+
+#profile-picture {
+  display: flex;
+  justify-content: center;
+}
+
+#profile-picture img {
+  width: 200px; /* Adjust the width of the image as per your preference */
+  height: 200px; /* Adjust the height of the image as per your preference */
+  border-radius: 50%; /* Apply circular shape */
+  object-fit: cover; /* Prevent stretching and maintain aspect ratio */
+}
+
+/* Style the navigation */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  background-color: #eeebeb; /* Lighter color */
+  color: #232323;
+  padding: 10px 20px;
+  border-radius: 20px; /* Adjust the border radius to your desired value */
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #ddd; /* Lighter hover color */
+}
+
+/* Style the sections */
+section {
+  margin-bottom: 40px;
+}
+
+.delimiter {
+  border: none;
+  border-top: 2px solid #a9aca9;
+  margin: 40px auto;
+  width: 80%;
+}
+
+.project {
+  background-color: #acaeac;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px; /* Adjust the border radius to your desired value */
+}
+
+/* Style the buttons */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 20px; /* Adjust the border radius to your desired value */
+  border: 2px solid #ddd; /* Lighter stroke color */
+  transition: background-color 0.3s ease;
+  margin: 0 auto; /* Add this line to center align the buttons horizontally */
+  display: block; /* Add this line to make the buttons take full width */
+  max-width: 200px; /* Adjust the max-width to your desired value */
+  text-align: center; /* Add this line to center align the text within the buttons */
+}
+
+.btn:hover {
+  background-color: #555;
+}
+
+/* Style the footer */
+footer {
+  margin-top: auto;
+  text-align: center;
+  color: #666;
+}
